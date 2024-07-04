@@ -1,0 +1,829 @@
+body {
+    margin: 0;
+    /* background-image: url(../Images/Back\ Image.jpg); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative; */
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+}
+
+.main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-image: url(../Images/Back\ Image.jpg);
+}
+
+.main::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgb(79 5 5 / 71%)
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-main {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.container {
+    display: block;
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-main .inner-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main .inner-header .left {
+    display: block;
+}
+
+.header-main .inner-header .left a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.header-main .inner-header .left a:hover {
+    color: red;
+}
+
+.header-main .inner-header .right {
+    display: block;
+}
+
+.header-main .inner-header .right a {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px 20px;
+}
+
+.header-main .inner-header .right a:first-child {
+    color: #fff;
+}
+
+.header-main .inner-header .right a:hover {
+    color: #fff;
+}
+
+.home-section {
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    position: relative;
+    min-height: 735px;
+}
+
+.home-section h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.home-section p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0;
+}
+
+.home-section .material-symbols-outlined {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+}
+
+.servies {
+    display: block;
+}
+
+.servies .inner-servies {
+    display: block;
+}
+
+.servies .inner-servies h3 {
+    margin: 0;
+    padding: 80px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: red;
+}
+
+.servies .content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.servies .content .inner-content {
+    display: block;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.servies .content .inner-content .image {
+    display: flex;
+}
+
+.servies .content .inner-content .image .left span {
+    margin-left: 10px;
+    color: red;
+    font-size: 48px;
+}
+
+.servies .content .inner-content .image .right {
+    display: block;
+    margin-left: 10px;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.servies .content .inner-content .image .right span {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.servies .content .inner-content .image .right p {
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+/* work start  */
+.Works {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.Works .inner-works {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    font-weight: 900;
+    margin: 25px 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 -15px;
+}
+
+.Works .content .inner-content {
+    display: block;
+    width: 33.33%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Works .content .inner-content .image {
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+/* work end  */
+.Properties {
+    font-size: 35px;
+    color: red;
+}
+
+.Properties .inner-proparty {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 -15px;
+}
+
+.Properties .inner-proparty .contenx {
+    display: block;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.Properties .inner-proparty .contenx .image {
+    display: block;
+    text-align: center;
+}
+
+.Properties .inner-proparty .contenx .image img {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
+
+.Properties .inner-proparty .contenx .image img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+.Properties .inner-proparty .contenx .image strong {
+    display: inline-block;
+    margin-top: 10px;
+    color: #111;
+    font-size: 30px;
+}
+
+.Properties .inner-proparty .contenx .image .text {
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin: 15px 5px;
+}
+
+.Properties .inner-proparty .contenx .image .text span {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+}
+
+.Properties .inner-proparty .contenx .image .text .firstspan::after {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    right: -4px;
+    background: red;
+    top: 0;
+}
+
+.Properties .inner-proparty .contenx .image .text .secondspan::after {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    right: -4px;
+    background: red;
+    top: 0;
+}
+
+.Properties .inner-proparty .contenx .image h3 {
+    color: gray;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+
+.RealEstate {
+    display: block;
+}
+
+.RealEstate .innerRealEstate {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.RealEstate .innerRealEstate .left {
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.RealEstate .innerRealEstate .left .image {
+    display: block;
+    position: relative;
+}
+
+.RealEstate .innerRealEstate .left .image img {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.RealEstate .innerRealEstate .right {
+    display: block;
+    margin-left: 70px;
+}
+
+.RealEstate .innerRealEstate .right h2 {
+    color: red;
+    margin: 0;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 1rem;
+}
+
+.RealEstate .innerRealEstate .right .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: gray;
+    line-height: 1.8;
+}
+
+.RealEstate .innerRealEstate .right p {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.7;
+}
+
+.RealEstate .innerRealEstate .right .fa-solid.fa-check {
+    color: green;
+    margin-right: 15px;
+}
+
+.RealEstate .innerRealEstate .right li {
+    margin-bottom: 5px;
+}
+
+.custom.class {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    background: #f61414cf;
+    padding: 20px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.custom.class a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+.contact-main {
+    display: block;
+    margin: 70px 0;
+}
+
+.contact-main .inner-contact {
+    display: block;
+}
+
+.contact-main .inner-contact .heading {
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-main .inner-contact .heading h2 {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contact-main .inner-contact .contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-main .inner-contact .contact .left {
+    display: block;
+    width: 60%;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+
+.contact-main .inner-contact .contact .left h2 {
+    color: #111;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 3rem !important;
+    font-size: 1.5rem;
+}
+
+.contact-main .inner-contact .contact .left form {
+    box-shadow: 5px 10px rgba(255, 0, 0, 0.288);
+    background-color: #e9e8e863 !important;
+    border-radius: 30px;
+    padding: 3rem !important;
+}
+
+.contact-main .inner-contact .contact .left form tr {
+    color: #000 !important;
+    margin-bottom: 1rem;
+}
+
+.contact-main .inner-contact .contact .left form tr label {
+    margin-bottom: 10px;
+}
+
+.contact-main .inner-contact .contact .left form tr td {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.contact-main .inner-contact .contact .left form tr input {
+    height: 10px;
+    border-radius: 30px;
+    min-width: 571px;
+    padding: 20px;
+    background: #0000001a;
+    color: #495057;
+    border-style: none;
+}
+
+.contact-main .inner-contact .contact .left form tr input:hover {
+    border: 1px solid #f69314;
+    background: #fff;
+}
+
+.contact-main .inner-contact .contact .left form tr td .submit:hover {
+    background: red !important;
+}
+
+.contact-main .inner-contact .contact .left form textarea {
+    height: 200px;
+    width: 590px;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.contact-main .inner-contact .contact .left form .submit {
+    background: #a71f1fe5 !important;
+    min-width: 111px !important;
+    color: #fff !important;
+    padding-bottom: 40px !important;
+}
+
+.contact-main .inner-contact .contact .right {
+    box-shadow: 5px 10px rgba(255, 0, 0, 0.288);
+    border-radius: 30px;
+    padding: 1.5rem !important;
+    background-color: #e9e8e863 !important;
+    max-height: 270px;
+    margin-left: 30px;
+    min-width: 360px;
+}
+
+.contact-main .inner-contact .contact .right .right-inner {
+    display: block;
+    margin-top: 30px;
+}
+
+.contact-main .inner-contact .contact .right .right-inner label {
+    color: grey;
+    font-weight: 700;
+}
+
+.contact-main .inner-contact .contact .right .right-inner span {
+    margin-bottom: 1.5rem !important;
+    color: #f61414;
+}
+
+.contact-main .inner-contact .contact .right .right-inner span a {
+    color: #f61414;
+}
+
+/* footer start  */
+.footer {
+    display: block;
+    background: #f61414;
+}
+
+.footer .inner-footer {
+    display: block;
+    padding: 8em 0;
+    color: #fff;
+}
+
+.footer .inner-footer .top .left span {
+    font-size: 20px;
+    margin-bottom: 1.7rem !important;
+    font-family: "Playfair Display", serif;
+}
+
+.footer .inner-footer .top {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.footer .inner-footer .top .left {
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 320px 0 0;
+    line-height: 1.7;
+}
+
+.footer .inner-footer .top .right {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.footer .inner-footer .top .right .right-inner {
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 43px;
+    font-size: 20px;
+}
+
+.footer .inner-footer .top .right .right-inner h4 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.footer .inner-footer .top .right .right-inner a {
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer .inner-footer .top .right .right-inner a .fa-brands.fa-facebook-f:hover {
+    color: blue;
+}
+
+.footer .inner-footer .top .right .right-inner a .fa-brands.fa-instagram:hover {
+    background-image: linear-gradient(to bottom right, orange, pink, purple, blue);
+}
+
+.footer .inner-footer .top .right .right-inner a .fa-brands.fa-twitter:hover {
+    color: blue;
+}
+
+.footer .inner-footer .top .right .right-inner a .fa-brands.fa-linkedin:hover {
+    color: skyblue;
+}
+
+.footer .inner-footer .bottom {
+    text-align: center;
+    display: block;
+}
+
+.fa-solid.fa-house {
+    font-size: 35px;
+}
+
+.fa-solid.fa-dollar-sign {
+    font-size: 35px;
+
+}
+
+.fa-solid.fa-sack-dollar {
+    font-size: 35px;
+}
+
+/* footer end */
+/* althan proparty start  */
+.althan-proparty {
+    display: block;
+    margin: 50px 0;
+}
+
+.althan-proparty .inner-althan-proparty {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.althan-proparty .inner-althan-proparty .left {
+    width: 50%;
+    display: block;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.althan-proparty .inner-althan-proparty .left .image {
+    display: block;
+}
+
+.althan-proparty .inner-althan-proparty .left .image img {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0.5;
+    transition: 1s ease;
+    min-width: 500px;
+}
+
+.althan-proparty .inner-althan-proparty .left .image img:hover {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.althan-proparty .inner-althan-proparty .right {
+    display: block;
+}
+
+.althan-proparty .inner-althan-proparty .right .right-inner {
+    display: block;
+}
+
+.althan-proparty .inner-althan-proparty .right h3 {
+    font-size: 2.5rem;
+    font-family: "Playfair Display", serif;
+    color: red;
+}
+
+.althan-proparty .inner-althan-proparty .right .right-inner a {
+    display: inline-block;
+    background: #b03535;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.althan-proparty .inner-althan-proparty .right .right-inner a:hover {
+    background: #f61414;
+}
+
+.althan-proparty .inner-althan-proparty .right .image {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.althan-proparty .inner-althan-proparty .right .image img {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.althan-proparty .inner-althan-proparty .right .image img:hover {
+    transform: scale(1.2);
+}
+
+.althan-proparty .inner-althan-proparty .right .image .image-inner {
+    display: block;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.althan-proparty .inner-althan-proparty .right .image .contex {
+    display: block;
+    margin-left: 35px;
+    width: 55%;
+}
+
+.althan-proparty .inner-althan-proparty .right .image .contex h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.althan-proparty .inner-althan-proparty .right .image .contex a {
+    display: inline-block;
+    background: #b03535;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.althan-proparty .inner-althan-proparty .right .image .contex a:hover {
+    background: #f61414;
+}
+
+.althan-proparty .inner-althan-proparty .right .image .contex span {
+    color: red;
+}
+
+/* althan proparty end */
+/* althan listing start  */
+.althan-listing {
+    display: block;
+    margin: 100px 0;
+}
+
+.althan-listing .inner-althan-listing {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 -15px;
+}
+
+.althan-listing .inner-althan-listing .item {
+	display: block;
+	width: 33.33%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.althan-listing .inner-althan-listing .item .item-inner:hover{
+    
+    box-shadow: 0 40px 40px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+.althan-listing .inner-althan-listing .item .item-inner {
+    display: block;
+	border-radius: 20px;
+    padding-bottom: 50px;
+	transition: 0.5s;
+
+}
+
+.althan-listing .inner-althan-listing .item .item-inner .image {
+	display: block;
+	margin-left: 25px;
+}
+.althan-listing .inner-althan-listing .item .item-inner .image img {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 265px;
+    max-height: 170px;
+}
+
+
+
+.althan-listing .inner-althan-listing .item .item-inner .text {
+	display: block;
+	margin-top: 15px;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+
+.althan-listing .inner-althan-listing .item .item-inner .text strong {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.althan-listing .inner-althan-listing .item .item-inner .text h5 {
+    color: gray;
+}
+
+.althan-listing .inner-althan-listing .item .item-inner .text span {
+    color: grey;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.althan-listing .inner-althan-listing .item .item-inner .text a {
+    background: #a71f1fe5;
+    border-color: #ffafaf;
+    color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.althan-listing .inner-althan-listing .item .item-inner .text a:hover {
+    background: #f61414;
+}
+
+/* althan listing end */
