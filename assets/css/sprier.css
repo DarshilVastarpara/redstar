@@ -17,12 +17,12 @@ body {
 }
 
 .main .inner-main {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin: 0 -15px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	margin: 0 -15px;
+	font-weight: 700;
 }
-
 .main .inner-main .item {
     display: block;
     width: 48%;
@@ -48,8 +48,9 @@ body {
 }
 
 .main .inner-main .item .item-inner .contex {
-    display: block;
-    color: gray !important;
+	display: block;
+	color: gray !important;
+	font-family: "Playfair Display", serif;
 }
 
 /* second main start  */
@@ -95,8 +96,10 @@ body {
 }
 
 .second-main .inner-second-main .left .second-item .second-item-inner .second-contex {
-    display: block;
-    color: gray !important;
+	display: block;
+	color: gray !important;
+	width: 50%;
+	box-sizing: border-box;
 }
 
 /* second main end */
@@ -133,8 +136,17 @@ body {
 }
 
 .second-main .inner-second-main .right .right-inner .item .item-inner .contex {
-    display: block;
-    color: gray !important;
+	display: block;
+	color: gray !important;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+}
+.second-contex-main {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
 }
 
 @media (max-width:1199px) {

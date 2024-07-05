@@ -474,7 +474,7 @@ ul {
     background: #fff;
 }
 
-.contact-main .inner-contact .contact .left form tr td .submit:hover {
+.contact-main .inner-contact .contact .left form tr td #submit:hover {
     background: red !important;
 }
 
@@ -485,13 +485,14 @@ ul {
     padding: 20px;
 }
 
-.contact-main .inner-contact .contact .left form .submit {
-    background: #a71f1fe5 !important;
-    min-width: 111px !important;
-    color: #fff !important;
-    padding-bottom: 40px !important;
+.contact-main .inner-contact .contact .left form #submit {
+	background: #a71f1fe5 !important;
+	min-width: 111px !important;
+	color: #fff !important;
+	padding: 27px 15px;
+	border-radius: 15px;
+	text-align: center;
 }
-
 .contact-main .inner-contact .contact .right {
     box-shadow: 5px 10px rgba(255, 0, 0, 0.288);
     border-radius: 30px;

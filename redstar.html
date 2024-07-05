@@ -18,6 +18,7 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>
@@ -291,41 +292,37 @@
                     <div class="contact">
                         <div class="left">
 
-                            <form action="mailto:helloredstarr@gmail.com" method="POST" enctype="text/plain"
-                                class="form">
+                            <form action="" method="POST" class="form-data">
                                 <table>
                                     <h2>Contact Form</h2>
                                     <tr>
                                         <td><label for="">First Name</label></td>
                                     </tr>
                                     <tr>
-                                        <td><input type="text" placeholder="Enter Your Name"></td>
+                                        <td><input type="text" id="fname" placeholder="Enter Your Name" ></td>
                                     </tr>
                                     <tr>
                                         <td><label for="">Contact Number</label></td>
                                     </tr>
                                     <tr>
-                                        <td><input type="number" placeholder="Enter Your Contact Number"></td>
+                                        <td><input type="number" id="contact" placeholder="Enter Your Contact Number"
+                                                ></td>
                                     </tr>
                                     <tr>
                                         <td><label for="">Email (Optional)</label></td>
                                     </tr>
                                     <tr>
-                                        <td><input type="email" placeholder="Enter Email"></td>
+                                        <td><input type="email"  id="email" placeholder="Enter Email" ></td>
                                     </tr>
                                     <tr>
                                         <td><label for="">Message (Optional)</label></td>
                                     </tr>
                                     <tr>
-                                        <td><textarea name="query" id="" cols="30" rows="7"
+                                        <td><textarea name="query"  cols="30" rows="7"
                                                 placeholder="Enter Your notes queshion here"></textarea></td>
                                     </tr>
                                     <tr>
-                                        <td>
-
-                                            <input type="submit" value="Submit" class="submit"
-                                                onsubmit="{handlesubmit}">
-                                        </td>
+                                        <td><input type="submit" id="submit" name="Submit"></td>
                                     </tr>
                                 </table>
                             </form>
@@ -415,26 +412,9 @@
             </div>
         </div>
     </div>
+    
 
-
-    <!-- script start  -->
-    <script type="text/javascript">
-        var image = new Array(
-
-        )
-    </script>
-
-
-
-    <!-- script end -->
-
-
-
-    <!-- footer end -->
-
-    <script>
-
-    </script>
+ <script src="./assets/js/redstar.js"></script>
 </body>
 
 </html>
