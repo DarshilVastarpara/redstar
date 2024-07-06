@@ -2,6 +2,8 @@
 const fname = document.getElementById('fname');
 const contact = document.getElementById('contact');
 const email = document.getElementById('email');
+const msg = document.getElementById('msg');
+
 // add event listner on form container...
 const submit = document.getElementsByClassName('form-data')[0];
 
@@ -15,7 +17,7 @@ submit.addEventListener('submit',(e)=>{
     <b>Name: </b>${fname.value}
     <br><b>Contact: </b>${contact.value}
     <br><b>Email: </b>${email.value}
-
+    <br><b>Message: </b>${msg.value}
     `
 
     // email code here 

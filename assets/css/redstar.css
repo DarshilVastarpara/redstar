@@ -486,13 +486,14 @@ ul {
 }
 
 .contact-main .inner-contact .contact .left form #submit {
-	background: #a71f1fe5 !important;
-	min-width: 111px !important;
-	color: #fff !important;
-	padding: 27px 15px;
-	border-radius: 15px;
-	text-align: center;
+    background: #a71f1fe5 !important;
+    min-width: 111px !important;
+    color: #fff !important;
+    padding: 27px 15px;
+    border-radius: 15px;
+    text-align: center;
 }
+
 .contact-main .inner-contact .contact .right {
     box-shadow: 5px 10px rgba(255, 0, 0, 0.288);
     border-radius: 30px;
@@ -756,30 +757,32 @@ ul {
 }
 
 .althan-listing .inner-althan-listing .item {
-	display: block;
-	width: 33.33%;
-	padding: 0 15px;
-	box-sizing: border-box;
-	margin-bottom: 50px;
+    display: block;
+    width: 33.33%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
 }
-.althan-listing .inner-althan-listing .item .item-inner:hover{
-    
+
+.althan-listing .inner-althan-listing .item .item-inner:hover {
+
     box-shadow: 0 40px 40px -5px rgba(0, 0, 0, 0.3);
 
 }
 
 .althan-listing .inner-althan-listing .item .item-inner {
     display: block;
-	border-radius: 20px;
+    border-radius: 20px;
     padding-bottom: 50px;
-	transition: 0.5s;
+    transition: 0.5s;
 
 }
 
 .althan-listing .inner-althan-listing .item .item-inner .image {
-	display: block;
-	margin-left: 25px;
+    display: block;
+    margin-left: 25px;
 }
+
 .althan-listing .inner-althan-listing .item .item-inner .image img {
     display: block;
     width: 100%;
@@ -791,13 +794,13 @@ ul {
 
 
 .althan-listing .inner-althan-listing .item .item-inner .text {
-	display: block;
-	margin-top: 15px;
-	font-size: 22px;
-	font-weight: 400;
-	font-family: "Playfair Display", serif;
-	margin-bottom: 30px;
-	margin-left: 10px;
+    display: block;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 .althan-listing .inner-althan-listing .item .item-inner .text strong {
@@ -828,3 +831,37 @@ ul {
 }
 
 /* althan listing end */
+
+.adajan-listing-second-main {
+	display: block;
+	background-color: #111;
+	padding: 50px 0;
+}
+.owl-nav {
+	color: #fff;
+}
+.adajan-listing-second-main .inner-adajan-listing-second {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+.adajan-listing-second-main .inner-adajan-listing-second .left {
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.adajan-listing-second-main .inner-adajan-listing-second .left .item {
+    display: block;
+}
+
+.adajan-listing-second-main .inner-adajan-listing-second .left .item .item-inner {
+    display: block;
+    padding: 0 15px;
+}
+
+.adajan-listing-second-main .inner-adajan-listing-second .left .item .item-inner img {
+    max-height: 400px;
+}
