@@ -865,3 +865,7 @@ ul {
 .adajan-listing-second-main .inner-adajan-listing-second .left .item .item-inner img {
     max-height: 400px;
 }
+button {
+    outline: none;
+    border: #fff;
+}
